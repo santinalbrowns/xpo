@@ -15,7 +15,13 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "audio"
+        ]
+      },
+      "bundleIdentifier": "com.santinal.xpo"
     },
     "android": {
       "adaptiveIcon": {
@@ -25,6 +31,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fcc55c8b-17cb-4b1e-8771-bd09609149b4"
+      }
     }
   }
 }
